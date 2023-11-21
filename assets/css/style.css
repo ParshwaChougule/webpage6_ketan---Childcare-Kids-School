@@ -29,6 +29,20 @@
     color: #fff;
     background: #F5890D;
 }
+.btn1{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    background: #F5890D;
+}
+.btn1:hover{
+    color: #fff;
+    background: #EA512E;
+}
 p {
     margin-bottom: 15px;
     line-height: 1.8;
@@ -74,10 +88,15 @@ li{
     animation: move3 1s linear infinite alternate;
 }
 .shape-4{
-    top: 90%;
+    top: 88%;
     left: 50%;
     z-index: 9;
-    animation: move4 1s linear infinite alternate;
+    animation: move4 3s linear infinite alternate;
+}
+.shape-5{
+    top: 3.5%;
+    left: 88%;
+    animation: move5 1s linear infinite alternate;
 }
 .banner h1 {
     color: #1B0238;
@@ -87,6 +106,53 @@ li{
     margin-bottom: 20px;
 }
 /* /Hero Section End */
+
+/* Banner Section Start */
+.banner2 img{
+    border-radius: 50%;
+    height: 600px;
+    padding: 50px;
+}
+.banner2 span{
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+.banner2 h3{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.banner2 li{
+    list-style-type: none;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1b0238;
+    max-width: 50%;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+.banner2 li span{
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #ea512e;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+/* /Banner Section End */
 
 
 
@@ -106,5 +172,9 @@ li{
 } 
 @keyframes move4{
     0%{}
-    100%{}
+    100%{top: 83%;}
+} 
+@keyframes move5{
+    0%{}
+    100%{left: 82.5%;}
 } 
