@@ -29,8 +29,8 @@
 .pb-70{padding-bottom: 70px;}
 .pt-100{padding-top: 100px;}
 .pt-50{padding-top: 43%;}
-.pt-65{padding-top: 62%;}
-.pt-62{padding-top: 51%;}
+.pt-40{padding-top: 59%;}
+.pt-30{padding-top: 48.6%;}
 .pb-100{padding-bottom: 100px;}
 .btn{
     color: #fff;
@@ -137,7 +137,7 @@ li{
 .popular span,
 .teacher span,
 .core-value span,
-.testimonials span{
+.testimonials .span{
     font-size: 20px;
     color: #ea512e;
     font-weight: 600;
@@ -165,12 +165,12 @@ li{
     padding-top: 5px;
 }
 .banner2 li span{
-    font-family: "Roboto", sans-serif;
-    display: inline-block;
     height: 30px;
     width: 30px;
     line-height: 30px;
     font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
     color: #ffffff;
     background: #ea512e;
     border-radius: 50px;
@@ -188,23 +188,21 @@ li{
 
 /* Popular class Section Start */
 .popular .card:hover img{
-    transform: rotate(2deg) scale(1.07);
+    transform: rotate(2deg) scale(1.1);
     transition: all 0.3s linear;
 }
-.card-boy{
+.card-body{
     padding: 40px 30px;
 }
 .popular .list{
     margin-top: 20px;
     padding: 20px 10px;
-    border-top: 1px dashed #ea512e;
+    border-top: 1px dashed #EA512E;
 }
-.popular .list ul li{
-    display: flex;
-}
-.popular .list .span{
+.popular .list .span,
+.testimonials .card.teacher .Music{
     font-family: "Catamaran", sans-serif;
-    font-size: 19px;
+    font-size: 16px;
 }
 /* /Popular class Section End */
 
@@ -265,6 +263,49 @@ li{
     transition: 0.3s ease;
 }
 /* /Teacher Section End */
+
+/* Testimonials Section Start */
+.card.teacher{
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 49%;
+    border: none;
+    background-color: #FEE9CA;
+}
+.card.teacher div{
+    width: 65px;
+    height: 65px;
+    line-height: 75px;
+    margin: auto;
+    border-radius: 50%;
+    color: #EA512E;
+    background: #fff;
+}
+.card.teacher:hover div{
+    color: #fff;
+    background: #EA512E;
+    transition: all 0.2s linear;
+}
+.testimonials .nav-button button{
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+    font-size: 45px;
+    font-weight: 600;
+    border-radius: 50%;
+   text-align: center;
+    color: #fff;
+    background: #EA512E;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+.testimonials .nav-button button:hover{
+    background: #F5890D;
+    transition: 0.3s linear;
+}
+
+/* /Testimonials Section End */
 
 
 
