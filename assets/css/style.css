@@ -24,13 +24,14 @@
 .ml-20{margin-left: 78%;}
 .pt-20{padding-top: 25px;}
 .pt-60{padding-top: 100px;}
+.pl-2{padding-left: 2px;}
 .pl-20{padding-left: 20px;}
 .pl-50{padding-left: 77.7%;}
 .pb-70{padding-bottom: 70px;}
 .pt-100{padding-top: 100px;}
 .pt-50{padding-top: 43%;}
-.pt-40{padding-top: 59%;}
-.pt-30{padding-top: 48.6%;}
+.pt-40{padding-top: 63.4%;}
+.pt-30{padding-top: 42.6%;}
 .pb-100{padding-bottom: 100px;}
 .btn{
     color: #fff;
@@ -67,6 +68,11 @@ p {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     
+}
+img{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
 }
 /* /Universal CSS End */
 
@@ -128,15 +134,12 @@ li{
 /* /Hero Section End */
 
 /* Banner Section Start */
-.banner2 img{
-    border-radius: 50%;
-    height: 600px;
-    padding: 50px;
-}
 .banner2 span,
 .popular span,
 .teacher span,
 .core-value span,
+.upcoming span,
+.blog span,
 .testimonials .span{
     font-size: 20px;
     color: #ea512e;
@@ -147,11 +150,54 @@ li{
 .popular h2,
 .teacher h3,
 .core-value h3,
-.testimonials h2{
+.upcoming h3,
+.blog h2,
+.testimonials h2,
+.footer h1{
     font-size: 45px;
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: bold;
+}
+.banner2 .image{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.banner2 .image img{
+    border-radius: 50%;
+    padding: 20px;
+}
+.teacher .teacher-image{
+    z-index: 999 !important;
+}
+.banner2 .image::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #ea512e;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 50%;
+    transition: 0.5s;
+    animation: border-transform-default 20s linear infinite alternate forwards;
+}
+.banner2 .image::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #F5890D;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 50%;
+    transition: 0.5s;
+    animation: border-transform-default 50s linear infinite alternate forwards;
 }
 .banner2 li{
     list-style-type: none;
@@ -194,6 +240,21 @@ li{
 .card-body{
     padding: 40px 30px;
 }
+.popular .card-body .price{
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 76.8%;
+    background-color: #ea512e;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1;
+    border-radius: 0 0 0 10px;
+    transition: 0.5s;
+}
 .popular .list{
     margin-top: 20px;
     padding: 20px 10px;
@@ -235,6 +296,10 @@ li{
 /* /Core Value Section End */
 
 /* Teacher Section Start */
+.teacher{
+    background: url(../img/teacher-bg.jpg);
+    background-size: 100% 100%;
+}
 .teacher .social-media{
     position: absolute;
     bottom: 0;
@@ -242,6 +307,20 @@ li{
     right: 0;
     margin-bottom: -70px;
     transition: all 0.5s ease-in;
+}
+.teacher .teacher-image::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #ea512e;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 50%;
+    transition: 0.5s;
+    animation: border-transform-default 10s linear infinite alternate forwards;
 }
 .teacher .teacher-image:hover .social-media{
     margin-bottom: 0px;
@@ -265,7 +344,7 @@ li{
 /* /Teacher Section End */
 
 /* Testimonials Section Start */
-.card.teacher{
+.card.teachers{
     height: auto;
     padding: 30px;
     text-align: center;
@@ -273,7 +352,7 @@ li{
     border: none;
     background-color: #FEE9CA;
 }
-.card.teacher div{
+.card.teachers div{
     width: 65px;
     height: 65px;
     line-height: 75px;
@@ -282,7 +361,7 @@ li{
     color: #EA512E;
     background: #fff;
 }
-.card.teacher:hover div{
+.card.teachers:hover div{
     color: #fff;
     background: #EA512E;
     transition: all 0.2s linear;
@@ -298,7 +377,6 @@ li{
     color: #fff;
     background: #EA512E;
     margin-left: -40px;
-    margin-right: -40px;
 }
 .testimonials .nav-button button:hover{
     background: #F5890D;
@@ -307,9 +385,162 @@ li{
 
 /* /Testimonials Section End */
 
+/* Upcoming Events Section Start */
+.upcoming{
+    position: relative;
+    background: url(../img/event-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/* /Upcoming Events Section End */
+
+/* News And Blog Section Start */
+.blog .card:hover img{
+    transform: rotate(2deg) scale(1.1);
+    transition: all 0.3s linear;
+}
+.card-boy{
+    padding: 40px 30px;
+    background: #FDEEE9;
+}
+.card-boy .a{
+    color: #1B0238;
+    font-weight: 700;
+}
+.card-boy .a:hover{
+    color: #EA512E;
+    transition: all 0.1s linear;
+}
+/* /News And Blog Section End */
+
+/* Footer Section Start */
+.footer{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../img/footer-bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.footer .social{
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #EA512E;
+}
+.footer h3::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background-color: #EA512E;
+}
+.footer .contact a{
+    color: #fff;
+}
+.footer .contact a:hover{
+    color: #EA512E;
+    border-bottom: 1px solid #EA512E;
+    transition: 0.3s;
+}
+.footer .Gallary img{
+    padding: 1px;
+}
+.footer .Gallary .photos{
+    display: inline-block;
+}
+.footer .Gallary img:hover{
+    transform: rotate(2deg) scale(1.2);
+    transform: all .6s;
+    transition: all 0.9s;
+}
+.footer .Gallary img{
+    transform: all .6s;
+    transition: all 0.9s;
+}
+/* /Footer Section End */
+
+/* Footer Bottom Section Start */
+.bottom{
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+    background: #091629;
+    color: #fff;
+    text-align: center;
+    
+}
+.bottom a{
+    color: #EA512E;
+}
+.bottom a:hover{
+    color: #fff;
+}
+/* Footer Bottom Section End */
+
+/* about Section Start */
+.about-banner{
+    width: 100%;
+    padding: 200px 0px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/page-banner-1\ \(1\).jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+/* about Section End */
 
 
 
+
+
+
+
+/* Animation Section Start */
+.rotate2{
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    margin-top: 10px;
+    display: flex;
+    padding: 15px;
+    color: #fff;
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(112, 176, 17);
+    animation: rotate2 2s linear alternate infinite;
+}
+/* /Animation Section End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rotate2 {
+    0%{
+        transform: scale(1,1,1);
+    }
+    50%{
+        transform: scale3d(0.7,0.7,0.7) rotate3d(0,0,1, -10deg);
+    }
+    100%{
+        transform: scale3d(1,1,1) rotate3d(0,0,1, 10deg);
+    }
+}
 
 @keyframes move{
     0%{}
@@ -331,3 +562,29 @@ li{
     0%{}
     100%{left: 88%;}
 } 
+
+
+@keyframes border-transform-default {
+    0%, 100% {
+        border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+    }
+    14% {
+        border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+    }
+    28% {
+        border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+    }
+    42% {
+        border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+    }
+    56% {
+        border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+    }
+    70% {
+        border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+    }
+    84% {
+        border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+    }
+}
+
