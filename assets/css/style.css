@@ -16,6 +16,10 @@
 .bg-light-yellow{background: #FEE9CA;}
 .bg-orange{background: #EA512E;}
 .bg-yellow{background: #F5890D;}
+.bg-1{background: #5799AC;}
+.bg-2{background: #D79C4B;}
+.bg-3{background: #674E88;}
+.bg-4{background: #D46139;}
 .mt-5{margin-top: 50px;}
 .mt-10{margin-top: 100px;}
 .mt-20{
@@ -124,6 +128,11 @@ li{
     top: 92%;
     left: 0%;
 }
+.shape-7{
+    top: 30%;
+    left: 50%;
+    animation: move7 1s linear infinite alternate;
+}
 .banner h1 {
     color: #1B0238;
     font-size: 60px;
@@ -140,6 +149,9 @@ li{
 .core-value span,
 .upcoming span,
 .blog span,
+.quote span,
+.Courses span,
+.pricing span,
 .testimonials .span{
     font-size: 20px;
     color: #ea512e;
@@ -152,7 +164,10 @@ li{
 .core-value h3,
 .upcoming h3,
 .blog h2,
+.quote h3,
 .testimonials h2,
+.Courses h3,
+.pricing h3,
 .footer h1{
     font-size: 45px;
     margin-top: 20px;
@@ -385,6 +400,26 @@ li{
 
 /* /Testimonials Section End */
 
+/* Testimoniel Section Start */
+.slider-wrap{
+    position: relative;
+    height: 100px;
+}
+.slider-main{
+    position: absolute;
+    width: 220%;
+}
+.item{
+    width: 400px;
+    display: inline-block;
+    transition: .5s ease-in-out;
+}
+.item .card-teach{
+    border-radius: 48%;
+    transition: .5s ease-in-out;
+}
+/* /Testimoniel Section End */
+
 /* Upcoming Events Section Start */
 .upcoming{
     position: relative;
@@ -481,16 +516,261 @@ li{
 }
 /* Footer Bottom Section End */
 
-/* about Section Start */
+/** about Section Start **/
 .about-banner{
     width: 100%;
     padding: 200px 0px;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/page-banner-1\ \(1\).jpg);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/page-banner-1\ \(1\).jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
-/* about Section End */
+    /* Fun Section Start */
+    .fun{
+        width: 100%;
+        height: 500px;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/fun-facts-bg.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 100% 100%;
+    }
+    .fun-fact {
+        margin-top: 42%;
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 75px 45px;
+        opacity: .90;
+        border-radius: 15px;
+    }
+    .fun-fact h3{
+        font-weight: bold;
+        font-size: 60px;
+    }
+    .exp-teacher h6 a{
+        font-size: 25px;
+        font-weight: bold;
+        color: #1b0238;
+        text-decoration: none;
+    }
+    .expart .src,
+    .gallery-a{
+        border-radius: 10%;
+    }
+    /* Fun Section End */
+
+    /* Quote Section Start */
+    .quote{
+        width: 100%;
+        height: 800px;
+        background: url(../img/quote-bg.jpg);
+        background-size: cover;
+        background-position: 100% 100%;
+        background-attachment: fixed;
+    }
+    .quote .quotet{
+        margin-left: 40%;
+        padding: 40px;
+        background: #fff;
+    }
+    .quotet .form{
+        margin-bottom: 15px;
+    }
+    .quotet .form .form-control {
+        height: 70px;
+        color: #1b0238;
+        -webkit-box-shadow: unset !important;
+        box-shadow: unset !important;
+        border: 2px solid #eeeeee;
+        background-color: transparent;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        border-radius: 10px;
+        padding: 0 0 0 15px;
+        font-weight: 500;
+    }
+    .quotet .form .butn{
+        border: none;
+        width: 100%;
+        cursor: pointer;
+        margin-top: 10px;
+        padding: 15px 30px
+    }
+    /* /Quote Section End */
+
+    /* Pricing Section Start */
+    
+    /* /Pricing Section End */
+
+    /* Newslatter section Start */
+    .newslatter{
+        width: 100%;
+        height: 300px;
+        background: #FDEEE9;
+        position: relative;
+    }
+    .newslatter h3{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .newslatter-shape .shape1{
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 25%;
+        max-width: 250px;
+    }
+    .newslatter-shape .shape2{
+        position: absolute;
+        right: 0;
+        top: 10%;
+        max-width: 250px;
+    }
+    .newslatter .form-control{
+        height: 60px;
+        border: 2px solid #fff;
+    }
+    /* /Newslatter section End */
+
+    /* Partner Section Start */
+    .Partner{
+        width: 100%;
+        height: 250px;
+        background: #FDF9F4;
+    }
+    /* /Partner Section End */
+
+/** about Section End **/
+
+/** Gallery Section Start **/
+.gallery{
+    width: 100%;
+    padding: 200px 0px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/page-banner-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+/** /Gallery Section End **/
+
+/** Teacher Section Start **/
+.teacher1{
+    width: 100%;
+    height: auto;
+}
+.teacher1 .social-media{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: -70px;
+    transition: all 0.5s ease-in;
+}
+.teacher1 .teacher-image::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #ea512e;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 50%;
+    transition: 0.5s;
+    animation: border-transform-default 10s linear infinite alternate forwards;
+}
+.teacher1 .teacher-image:hover .social-media{
+    margin-bottom: 0px;
+    transition: all 0.5s ease-out;
+}
+.teacher1 .social-media li{
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    background: #EA512E;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+.teacher1 .social-media li a{
+    color: white;
+}
+.teacher1 .social-media li:hover{
+    background: #f5890d;
+    transition: 0.3s ease;
+}
+/** /Teacher Section End **/
+
+/** Teacher-Details Section Start **/
+.Teacher-Details{
+    width: 100%;
+    padding: 200px 0px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/page-banner-5.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.Teacher-Detail h3,
+.Teacher-Detail-skill h3,
+.Profile-Details h5{
+    padding-top: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.Profile-Details{
+    border: 2px solid none ;
+    border-radius: 2%;
+    border-top: 3px solid #EA512E;
+    background: #f3f2f2;
+    filter: drop-shadow(1px 1px 1px );
+    padding: 10px 30px;
+}
+.Profile-Details h5{
+    padding-top: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 1px solid #EA512E;
+}
+.Profile-Details ul li a{
+    color: #000;
+    padding-left: 3px;
+}
+.Profile-Details ul li a:hover{
+    color: #EA512E;
+    transition: 0.3s;
+}
+/** /Teacher-Details Section End **/
+
+/** Event Section Start **/
+.Event{
+    width: 100%;
+    padding: 200px 0px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/page-banner-4.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.event-area .event-box{
+    padding: 35px 15px;
+    margin: 15px 0px;
+    background: #FDEEE9;
+}
+
+.event-area .event-box h6{
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 5px;
+    background-color: #fcded3;
+    color: #ea512e;
+}
+.event-area .event-box .event-date{
+    padding: 20px 30px;
+    color: #EA512E;
+}
+.event-area .event-date h1{
+    font-size: 70px;
+}
+/** /Event Section End **/
+
 
 
 
@@ -562,7 +842,10 @@ li{
     0%{}
     100%{left: 88%;}
 } 
-
+@keyframes move7{
+    0%{}
+    100%{left: 53%;}
+} 
 
 @keyframes border-transform-default {
     0%, 100% {
