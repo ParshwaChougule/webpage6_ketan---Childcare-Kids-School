@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Ketan - Childcare & Kids School</title>
-            <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ketan - Childcare & Kids School</title>
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
 
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-            <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">      
     </head>
     <body>
         <!-- Header Section Start -->
         <header>
             <nav class="navbar navbar-expand-lg ">
                 <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img src="./assets/img/logo.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-orange fw-bold active" aria-current="page" href="index.html">
+                            <a class="nav-link text-orange fw-bold active" aria-current="page" href="index.php">
                                 Home
                             </a>
                         </li>
@@ -36,8 +36,8 @@
                             Pages
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item fw-bold" href="about.html">About</a></li>
-                                <li><a class="dropdown-item fw-bold" href="gallery.html">Gallery</a></li>
+                                <li><a class="dropdown-item fw-bold" href="about.php">About</a></li>
+                                <li><a class="dropdown-item fw-bold" href="gallery.php">Gallery</a></li>
                                 <li><a class="dropdown-item fw-bold" href="#">Pricing</a></li>
                                 <li><a class="dropdown-item fw-bold" href="#">How to Apply</a></li>
                             </ul>
@@ -47,8 +47,8 @@
                             Teacher
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item fw-bold" href="teacher.html">Teacher</a></li>
-                                <li><a class="dropdown-item fw-bold" href="Teacher-Details.html">Teacher Details</a></li>
+                                <li><a class="dropdown-item fw-bold" href="teacher.php">Teacher</a></li>
+                                <li><a class="dropdown-item fw-bold" href="Teacher-Details.php">Teacher Details</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -56,8 +56,8 @@
                             Event
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item fw-bold" href="#">Event</a></li>
-                                <li><a class="dropdown-item fw-bold" href="#">Event Details</a></li>
+                                <li><a class="dropdown-item fw-bold" href="event.php">Event</a></li>
+                                <li><a class="dropdown-item fw-bold" href="event-details.php">Event Details</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -105,11 +105,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="text-center text-white">Event</h1>
+                    <h1 class="text-center text-white">Event Details</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb d-flex align-items-center justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-decoration-none text-white" href="index.html">Home</a></li>
-                            <li class="breadcrumb-item active text-orange" aria-current="page">Event</li>
+                            <li class="breadcrumb-item"><a class="text-decoration-none text-white" href="index.php">Home</a></li>
+                            <li class="breadcrumb-item active text-orange" aria-current="page">Event Details</li>
                         </ol>
                     </nav>
                 </div>
@@ -118,146 +118,59 @@
         </section>
         <!-- /About Banner Section End -->
 
-        <!-- Event Area Section Start -->
-        <section class="event-area pt-100 pb-100">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="event-box rounded-4 d-flex">
-                            <div class="col-md-3">
-                                <div class="event-image">
-                                    <a href="javasceipt:void()">
-                                        <img src="./assets/img/event-5.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="event-contant px-4">
-                                    <h6>Maths Olympiad</h6>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                    </p>
-                                    <span class="text-orange fw-bold">3-8 Months 8:00 AM - 11:00 PM</span>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="event-date">
-                                    <h1>20</h1>
-                                    <span class="fw-bold fs-4">October</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="event-box rounded-4 d-flex">
-                            <div class="col-md-3">
-                                <div class="event-image">
-                                    <a href="javasceipt:void()">
-                                        <img src="./assets/img/event-6.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="event-contant px-4">
-                                    <h6>Maths Olympiad</h6>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                    </p>
-                                    <span class="text-orange fw-bold">3-8 Months 8:00 AM - 11:00 PM</span>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="event-date">
-                                    <h1>12</h1>
-                                    <span class="fw-bold fs-4">December</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="event-box rounded-4 d-flex">
-                            <div class="col-md-3">
-                                <div class="event-image">
-                                    <a href="javasceipt:void()">
-                                        <img src="./assets/img/event-7.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="event-contant px-4">
-                                    <h6>Maths Olympiad</h6>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                    </p>
-                                    <span class="text-orange fw-bold">3-8 Months 8:00 AM - 11:00 PM</span>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="event-date">
-                                    <h1>29</h1>
-                                    <span class="fw-bold fs-4">August</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="event-box rounded-4 d-flex">
-                            <div class="col-md-3">
-                                <div class="event-image">
-                                    <a href="javasceipt:void()">
-                                        <img src="./assets/img/event-8.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="event-contant px-4">
-                                    <h6>Maths Olympiad</h6>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                    </p>
-                                    <span class="text-orange fw-bold">3-8 Months 8:00 AM - 11:00 PM</span>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="event-date">
-                                    <h1>30</h1>
-                                    <span class="fw-bold fs-4">November</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Event Area Section End -->
-
-        <!-- Newslatter Sextion Start -->
-        <section class="newslatter pt-100 pb-100"> 
+        <!-- Skil Teacher Section Start -->
+        <section class="Teacher-Detail pt-100 pb-100 position-relative">    
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="">
-                            <h3>Do You Want To Know Get Update What's Upcoming</h3>
+                    <div class="col-lg-8 col-md-12">
+                        <div class="skil-img">
+                            <img src="./assets/img/event-details.jpg" alt="">
+                        </div>
+                        <div class="Teacher-Detail-cont">
+                            <h3>The Great Global Project Challenge Conference</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <div class="Teacher-Detail-skill">
+                            <h3>Event Location</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <div class="location">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30251.738115874574!2d73.7405512359562!3d18.598041455609852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b97aaf571bed%3A0xc67346ba5a76673!2sWakad%2C%20Pimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1702382807665!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Enter Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
-                            <button class="btn" type="button" id="button-addon2">Subscribe Now</button>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="Profile-Details">
+                            <h5>Event Details</h5>
+                            <ul class="list-unstyled py-4">
+                                <li class="py-2"><span class="fs-6 fw-bold">Price : </span>$799.00</li>
+
+                                <li class="py-2"><span class="fs-6 fw-bold">Start : </span>December 01, 2022</li>
+
+                                <li class="py-2"><span class="fs-6 fw-bold">End : </span>December 02, 2022</li>
+
+                                <li class="py-2"><span class="fs-6 fw-bold">Event Category : </span>Education</li>
+
+                                <li class="py-2"><span class="fs-6 fw-bold">Total Slot : </span>100</li>
+
+                                <li class="py-2"><span class="fs-6 fw-bold">Booked Slot : </span>00</li>
+
+                                <li class="py-2"><span class="fs-6 fw-bold">Website : </span>
+                                <a href="" class="text-decoration-none"> www.ketan.com</a></li>
+                                
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="newslatter-shape">
-                <div class="shape1">
-                    <img src="./assets/img/newsletter-shape-1.png" alt="">
-                </div>
-                <div class="shape2">
-                    <img src="./assets/img/newsletter-shape-2.png" alt="">
-                </div>  
             </div>
         </section>
-        <!-- /Newslatter Sextion End -->
+        <!-- /Skil Teacher Section End -->
 
         <!-- Footer Section Start -->
         <footer class="footer pt-100 pb-70">

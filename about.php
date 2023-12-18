@@ -18,7 +18,7 @@
         <header>
                 <nav class="navbar navbar-expand-lg ">
                     <div class="container">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <img src="./assets/img/logo.png" alt="">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link text-orange fw-bold active" aria-current="page" href="index.html">
+                                <a class="nav-link text-orange fw-bold active" aria-current="page" href="index.php">
                                     Home
                                 </a>
                             </li>
@@ -36,8 +36,8 @@
                                 Pages
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item fw-bold" href="about.html">About</a></li>
-                                    <li><a class="dropdown-item fw-bold" href="gallery.html">Gallery</a></li>
+                                    <li><a class="dropdown-item fw-bold" href="about.php">About</a></li>
+                                    <li><a class="dropdown-item fw-bold" href="gallery.php">Gallery</a></li>
                                     <li><a class="dropdown-item fw-bold" href="#">Pricing</a></li>
                                     <li><a class="dropdown-item fw-bold" href="#">How to Apply</a></li>
                                 </ul>
@@ -47,8 +47,8 @@
                                 Teacher
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item fw-bold" href="teacher.html">Teacher</a></li>
-                                    <li><a class="dropdown-item fw-bold" href="Teacher-Details.html">Teacher Details</a></li>
+                                    <li><a class="dropdown-item fw-bold" href="teacher.php">Teacher</a></li>
+                                    <li><a class="dropdown-item fw-bold" href="Teacher-Details.php">Teacher Details</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -56,7 +56,7 @@
                                 Event
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item fw-bold" href="event.html">Event</a></li>
+                                    <li><a class="dropdown-item fw-bold" href="event.php">Event</a></li>
                                     <li><a class="dropdown-item fw-bold" href="#">Event Details</a></li>
                                 </ul>
                             </li>
@@ -108,7 +108,7 @@
                         <h1 class="text-center text-white">About</h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb d-flex align-items-center justify-content-center">
-                                <li class="breadcrumb-item"><a class="text-decoration-none text-white" href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a class="text-decoration-none text-white" href="index.php">Home</a></li>
                                 <li class="breadcrumb-item active text-orange" aria-current="page">About</li>
                             </ol>
                         </nav>

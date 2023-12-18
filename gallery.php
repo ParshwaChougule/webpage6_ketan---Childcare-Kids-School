@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
+            <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Ketan - Childcare & Kids School</title>
             <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
@@ -16,105 +16,105 @@
     <body>
         <!-- Header Section Start -->
         <header>
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="./assets/img/logo.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link text-orange fw-bold active" aria-current="page" href="index.html">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Pages
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item fw-bold" href="about.html">About</a></li>
-                            <li><a class="dropdown-item fw-bold" href="gallery.html">Gallery</a></li>
-                            <li><a class="dropdown-item fw-bold" href="#">Pricing</a></li>
-                            <li><a class="dropdown-item fw-bold" href="#">How to Apply</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Teacher
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item fw-bold" href="teacher.html">Teacher</a></li>
-                            <li><a class="dropdown-item fw-bold" href="Teacher-Details.html">Teacher Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Event
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item fw-bold" href="event.html">Event</a></li>
-                            <li><a class="dropdown-item fw-bold" href="#">Event Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Class
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item fw-bold" href="#">Class</a></li>
-                            <li><a class="dropdown-item fw-bold" href="#">Class Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Blog
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item fw-bold" href="#">Bolg</a></li>
-                            <li><a class="dropdown-item fw-bold" href="#">Bolg Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-bold active" aria-current="page" href="#">Contact</a>
-                    </li>
-                </ul>
-                <form class="d-flex " role="search">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Language
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Class</a></li>
-                            <li><a class="dropdown-item" href="#">Class Details</a></li>
-                        </ul>
-                    </li>
-                   <button class="btn" type="submit">Contact Us</button>
-                </form>
-            </div>
-            </div>
-        </nav>
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                <a class="navbar-brand" href="index.php">
+                    <img src="./assets/img/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-orange fw-bold active" aria-current="page" href="index.php">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item fw-bold" href="about.php">About</a></li>
+                                <li><a class="dropdown-item fw-bold" href="gallery.php">Gallery</a></li>
+                                <li><a class="dropdown-item fw-bold" href="#">Pricing</a></li>
+                                <li><a class="dropdown-item fw-bold" href="#">How to Apply</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Teacher
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item fw-bold" href="teacher.php">Teacher</a></li>
+                                <li><a class="dropdown-item fw-bold" href="Teacher-Details.php">Teacher Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Event
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item fw-bold" href="event.php">Event</a></li>
+                                <li><a class="dropdown-item fw-bold" href="#">Event Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Class
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item fw-bold" href="#">Class</a></li>
+                                <li><a class="dropdown-item fw-bold" href="#">Class Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item fw-bold" href="#">Bolg</a></li>
+                                <li><a class="dropdown-item fw-bold" href="#">Bolg Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold active" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex " role="search">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Language
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Class</a></li>
+                                <li><a class="dropdown-item" href="#">Class Details</a></li>
+                            </ul>
+                        </li>
+                    <button class="btn" type="submit">Contact Us</button>
+                    </form>
+                </div>
+                </div>
+            </nav>
         </header>
         <!-- /Header Section End -->
 
         <!-- Gallery Banner Section Start -->
         <section class="gallery">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="text-center text-white">Gallery</h1>
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb d-flex align-items-center justify-content-center">
-                        <li class="breadcrumb-item"><a class="text-decoration-none text-white" href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active text-orange" aria-current="page">Gallery</li>
-                    </ol>
-                </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center text-white">Gallery</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb d-flex align-items-center justify-content-center">
+                                <li class="breadcrumb-item"><a class="text-decoration-none text-white" href="index.php">Home</a></li>
+                                <li class="breadcrumb-item active text-orange" aria-current="page">Gallery</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
         </section>
         <!-- /Gallery Banner Section End -->
 

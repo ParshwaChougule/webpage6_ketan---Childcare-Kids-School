@@ -14,9 +14,9 @@
     <body>
        <!-- Header Section Start -->
        <header>
-            <nav class="navbar navbar-expand-lg ">
+            <nav class="navbar navbar-expand-xl ">
                 <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img src="./assets/img/logo.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-orange fw-bold active" aria-current="page" href="index.html">
+                            <a class="nav-link text-orange fw-bold active" aria-current="page" href="index.php">
                                 Home
                             </a>
                         </li>
@@ -34,8 +34,8 @@
                             Pages
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item fw-bold" href="about.html">About</a></li>
-                                <li><a class="dropdown-item fw-bold" href="gallery.html">Gallery</a></li>
+                                <li><a class="dropdown-item fw-bold" href="about.php">About</a></li>
+                                <li><a class="dropdown-item fw-bold" href="gallery.php">Gallery</a></li>
                                 <li><a class="dropdown-item fw-bold" href="#">Pricing</a></li>
                                 <li><a class="dropdown-item fw-bold" href="#">How to Apply</a></li>
                             </ul>
@@ -45,8 +45,8 @@
                             Teacher
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item fw-bold" href="teacher.html">Teacher</a></li>
-                                <li><a class="dropdown-item fw-bold" href="Teacher-Details.html">Teacher Details</a></li>
+                                <li><a class="dropdown-item fw-bold" href="teacher.php">Teacher</a></li>
+                                <li><a class="dropdown-item fw-bold" href="Teacher-Details.php">Teacher Details</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -54,8 +54,9 @@
                             Event
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item fw-bold" href="event.html">Event</a></li>
-                                <li><a class="dropdown-item fw-bold" href="event-details.html">Event Details</a></li>
+                                <li><a class="dropdown-item fw-bold" href="event.php">Event</a></li>
+                                <li><a class="dropdown-item fw-bold" href="event-details.php">Event Details</a></li>
+                                <li><a class="dropdown-item fw-bold" href="event-details.php">Event Details</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -63,8 +64,8 @@
                             Class
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item fw-bold" href="#">Class</a></li>
-                                <li><a class="dropdown-item fw-bold" href="#">Class Details</a></li>
+                                <li><a class="dropdown-item fw-bold" href="class.php">Class</a></li>
+                                <li><a class="dropdown-item fw-bold" href="class-detail.php">Class Details</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -102,22 +103,22 @@
        <section class="banner position-relative">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-1 position-absolute shape-1">
+                <div class="col-lg-1 position-absolute shape-1 d-none d-lg-block">
                     <img src="./assets/img/banner-shape-1.png" alt="owl1" class="img-fluid">
                 </div>
-                <div class="col-lg-1 position-absolute shape-2">
+                <div class="col-lg-1 position-absolute shape-2 d-none d-lg-block">
                     <img src="./assets/img/banner-shape-2.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-lg-1 position-absolute shape-3">
+                <div class="col-lg-1 position-absolute shape-3 d-none d-lg-block">
                     <img src="./assets/img/banner-shape-3.png" alt="owl2" class="img-fluid">
                 </div>
-                <div class="col-lg-1 position-absolute shape-4">
+                <div class="col-lg-1 position-absolute shape-4 d-none d-lg-block">
                     <img src="./assets/img/banner-shape-4.png" alt="owl3" class="img-fluid">
                 </div>
-                <div class="col-lg-12 position-absolute cloud shape-6">
+                <div class="col-lg-12 position-absolute cloud shape-6 d-none d-lg-block">
                     <img src="./assets/img/banner-bg-shape-1.png" alt="cloud" class="img-fluid">
                 </div>
-                <div class="col-lg-1 position-absolute shape-5">
+                <div class="col-lg-1 position-absolute shape-5 d-none d-lg-block">
                     <img src="./assets/img/who-we-are-shape.png" alt="owl3" class="img-fluid">
                 </div>
             </div>
@@ -125,19 +126,21 @@
         </div>
         <div class="container">
             <div class="row">
-               <div class="col-lg-6">
-                    <p class="mt-20 text-orange fw-bold">Play, Learn & grow</p>
-                    <h1>Empowering <br> Student Knowledge</h1>
-                    <P>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse <br> ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel <br> facilisis
-                    </P>
+               <div class="col-xl-6">
+                    <div class="banner-content">
+                        <p class="mt-20 text-orange fw-bold">Play, Learn & grow</p>
+                        <h1>Empowering <br> Student Knowledge</h1>
+                        <P>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse <br> ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel <br> facilisis
+                        </P>
+
+                        <a href="javascript:void()" class="btn me-3">Learn More</a>
+                        <a href="javascript:void()" class="btn1">Find Out More</a>
+                    </div>
                </div>
-               <div>
-                 <a href="javascript:void()" class="btn me-3">Learn More</a>
-                 <a href="javascript:void()" class="btn1">Find Out More</a>
-               </div>
-               <div class="col-lg-6">
-                <div class="mt-5">
+                 
+               <div class="col-xl-6">
+                <div class="mt-5 banner-image">
                     <img src="./assets/img/education-girl.png" alt="edu-girl" 
                     class="img-fluid position-absolute bottom-0 end-0" style="height: 85%;">
                 </div>
@@ -202,7 +205,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="col-lg-3 pt-40 position-absolute">
-                        <img src="./assets/img/class-shape-1.png" alt="class" class="shape-1">
+                        <img src="./assets/img/class-shape-1.png" alt="class" class="shape-1 d-none d-lg-block">
                     </div>
                     <div class="col-lg-3 pt-30 pl-50 position-absolute">
                         <img src="./assets/img/class-shape-1.png" alt="class" class="shape-1">
