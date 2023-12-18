@@ -140,10 +140,10 @@
                </div>
                  
                <div class="col-xl-6">
-                <div class="mt-5 banner-image">
-                    <img src="./assets/img/education-girl.png" alt="edu-girl" 
-                    class="img-fluid position-absolute bottom-0 end-0" style="height: 85%;">
-                </div>
+                    <div class="mt-5 banner-image">
+                        <img src="./assets/img/education-girl.png" alt="edu-girl" 
+                        class="img-fluid position-absolute bottom-0 end-0" style="height: 85%;">
+                    </div>
                </div>
             </div>
         </div>  
